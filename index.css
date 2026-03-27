@@ -1,0 +1,36 @@
+    body {
+        background: #181A1B;
+        color: #ffffff;
+        font-family: "Charter";
+        font-size: 1.25rem;
+        line-height: 1.5;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    code {
+        font-family: monospace;
+    }
+
+    .split-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 75vh;
+        margin: 0;
+    }
+
+    .left-side {
+        background-color: #212325;
+    }
+
+    .right-side {
+        background-color: #2B2D2F;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+    }
