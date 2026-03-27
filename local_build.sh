@@ -21,4 +21,4 @@ wait
 csv=$(printf '"%s",' "${files[@]}")
 csv=${csv%,}  # Remove the trailing comma
 
-typst compile typst/index.typ public/index.html --features html --format html --input "files=$csv"
+typst compile index.typ public/index.html --features html --format html --input "files=$csv"
