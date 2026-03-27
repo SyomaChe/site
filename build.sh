@@ -1,3 +1,7 @@
+curl -L https://github.com/typst/typst/releases/latest/download/typst-x86_64-unknown-linux-musl.tar.xz \
+  | tar -xJ
+mv typst-x86_64-unknown-linux-musl/typst /usr/local/bin/
+
 mkdir public
 cp index.html public/index.html
 
